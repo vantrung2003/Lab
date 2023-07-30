@@ -1,0 +1,98 @@
+<!-- activity_user_retrofit.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:padding="16dp"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:hint="Name: "
+           android:textSize="16dp"/>
+       <TextView
+           android:id="@+id/tvname"
+           android:layout_marginStart="10dp"
+           android:textColor="@android:color/holo_green_dark"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+
+           android:textSize="16dp"/>
+
+   </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="publisher: "
+            android:textSize="16dp"/>
+        <TextView
+            android:id="@+id/tvpublisher"
+            android:layout_marginStart="10dp"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="imageurl: "
+            android:textSize="16dp"/>
+        <ImageView
+            android:id="@+id/tvimageurl"
+            android:layout_marginStart="10dp"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+<!--    <LinearLayout-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <ListView-->
+
+<!--            android:id="@+id/lv"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="266dp"-->
+<!--            android:layout_marginStart="140sp"-->
+<!--            android:layout_marginTop="20sp"-->
+<!--            android:gravity="center" />-->
+
+<!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:layout_marginStart="140sp"
+           android:layout_marginTop="20sp"
+           android:hint="GET VALUE"
+           android:id="@+id/btnGet"/>
+
+    </LinearLayout>
+</LinearLayout>
